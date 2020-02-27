@@ -13,3 +13,7 @@ sql文件在resources目录下，需要手动导入运行
 ## 测试
 
 测试类中已经用Junit编写好几个基本的测试方法，可用来检测dao层是否能正常工作
+
+## Docker
+
+如果想用Docker运行数据库等软件，参见Docker.md  
