@@ -1,7 +1,7 @@
 
-CREATE DATABASE `myblog`;
+CREATE DATABASE `blog`;
 
-USE `my_blog_db`;
+USE `blog`;
 
 -- tb_admin_user
 CREATE TABLE `tb_admin_user` (
@@ -89,15 +89,15 @@ CREATE TABLE `tb_config` (
   PRIMARY KEY (`config_name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('footerAbout','personal blog','','');
-insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('footerCopyRight','2020 cky','','');
-insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('websiteDescription','Personal Blog','','');
-insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('websiteIcon','/admin/dist/img/favicon.png','','');
-insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('websiteLogo','/admin/dist/img/logo.png','','');
-insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('websiteName','cky's blog','','');
-insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('yourAvatar','/admin/dist/img/cky-logo.png','','');
-insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('yourEmail','','','');
-insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('yourName','cky','','');
+insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('footerAbout','personal blog','2020-02-02','2020-02-02');
+insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('footerCopyRight','2020 cky','2020-02-02','2020-02-02');
+insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('websiteDescription','Personal Blog','2020-02-02','2020-02-02');
+insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('websiteIcon','/admin/dist/img/favicon.png','2020-02-02','2020-02-02');
+insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('websiteLogo','/admin/dist/img/logo.png','2020-02-02','2020-02-02');
+insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('websiteName','Personal blog','2020-02-02','2020-02-02');
+insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('yourAvatar','/admin/dist/img/cky-logo.png','2020-02-02','2020-02-02');
+insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('yourEmail','','2020-02-02','2020-02-02');
+insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('yourName','cky','2020-02-02','2020-02-02');
 
 
 CREATE TABLE `tb_link` (
