@@ -1,4 +1,4 @@
-package com.cky.myblog.component.common;
+package com.cky.myblog.controller.common;
 
 import com.google.code.kaptcha.impl.DefaultKaptcha;
 import org.springframework.beans.factory.annotation.Autowired;

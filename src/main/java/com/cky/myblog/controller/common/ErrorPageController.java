@@ -1,4 +1,4 @@
-package com.cky.myblog.component.common;
+package com.cky.myblog.controller.common;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.error.ErrorAttributes;
