@@ -76,7 +76,7 @@
             order by blog_views desc
         </if>
         <if test="type!=null and type==1">
-            order by blog_id desc
+            order by create_time desc
         </if>
         limit #{limit}
     </select>
@@ -87,7 +87,7 @@
         from tb_blog
         where blog_id IN (SELECT blog_id FROM tb_blog_tag_relation WHERE tag_id = #{tagId})
         AND blog_status =1 AND is_deleted=0
-        order by blog_id desc
+        order by create_time desc
         <if test="start!=null and limit!=null">
             limit #{start},#{limit}
         </if>
