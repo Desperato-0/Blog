@@ -20,7 +20,7 @@ public class ConfigServiceImpl implements ConfigService {
     public static final String websiteName = "cky's blog";
     public static final String websiteDescription = "";
     public static final String websiteLogo = "/admin/dist/img/logo.png";
-    public static final String websiteIcon = "/admin/dist/img/favicon.png";
+    public static final String websiteIcon = "/admin/dist/img/favicon.ico";
 
     public static final String yourAvatar = "/admin/dist/img/cky-logo.png";
     public static final String yourEmail = "2907183182@qq.com";

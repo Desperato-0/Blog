@@ -92,7 +92,7 @@ CREATE TABLE `tb_config` (
 insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('footerAbout','personal blog','2020-02-02','2020-02-02');
 insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('footerCopyRight','2020 cky','2020-02-02','2020-02-02');
 insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('websiteDescription','Personal Blog','2020-02-02','2020-02-02');
-insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('websiteIcon','/admin/dist/img/favicon.png','2020-02-02','2020-02-02');
+insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('websiteIcon','/admin/dist/img/favicon.ico','2020-02-02','2020-02-02');
 insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('websiteLogo','/admin/dist/img/logo.png','2020-02-02','2020-02-02');
 insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('websiteName','Personal blog','2020-02-02','2020-02-02');
 insert  into `tb_config`(`config_name`,`config_value`,`create_time`,`update_time`) values ('yourAvatar','/admin/dist/img/cky-logo.png','2020-02-02','2020-02-02');

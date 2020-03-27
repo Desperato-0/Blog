@@ -48,7 +48,7 @@
         <if test="blogCategoryId!=null">
             AND blog_category_id = #{blogCategoryId}
         </if>
-        order by blog_id desc
+        order by create_time desc
         <if test="start!=null and limit!=null">
             limit #{start},#{limit}
         </if>
